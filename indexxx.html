@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Desert Adventures</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css.css">
+    
+ <link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="plugins/plugins/showcase/jquery.aw-showcase.js"></script>
+     <script src="plugins/balloon/jquery.balloon.js"></script>
+        <script src="plugins/plugins/slickquiz/js/slickQuiz-config.js"></script>
+        <script src="plugins/plugins/slickquiz/js/slickQuiz.js"></script>
+        <script src="plugins/plugins/slickquiz/js/master.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    
+ 
+$(document).ready(function()
+{
+	$("#showcase").awShowcase(
+	{
+		content_width:700,
+		content_height:470,
+		fit_to_parent:false,
+		auto:false,
+		interval:3000,
+		continuous:false,
+		loading:true,
+		tooltip_width:200,
+		tooltip_icon_width:32,
+		tooltip_icon_height:32,
+		tooltip_offsetx:18,
+		tooltip_offsety:0,
+		arrows:	true,
+		buttons:true,
+		btn_numbers:true,
+		keybord_keys:true,
+		mousetrace:false,
+		pauseonover:true,
+		stoponclick:false,
+		transition:'hslide',
+		transition_delay:0,
+		transition_speed:500,
+		show_caption:'onload', 
+		thumbnails:false,
+		thumbnails_position:'outside-last', 
+		thumbnails_direction:'vertical', 
+		thumbnails_slidex:1, 
+		dynamic_height:false, 
+		speed_change:true, 
+		viewline:false, 
+		custom_function:null 
+        
+        
+	});
+    
+});
+    $(function() {
+  $('selectors').balloon(options);
+});
+
+</script>
+<script>
+    function changeImage(a) {
+        document.getElementById("img").src=a;
+    }
+</script>
+</head>
+
+<body>
+<h1>Click the Right Arrow to Learn about Desert Biome Types!</h1><br>
+     <div class="col-md-10">
+         <div class="row">
+      
+<div id="showcase" class="showcase">
+    <div class="showcase-slide">
+        <div class="showcase-content">
+            <div class="showcase-content-wrapper">
+    
+                <img src="images/pic1.jpg"/>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="showcase-slide">
+        <div class="showcase-content">
+            <div class="showcase-content-wrapper">
+                <img src="images/cold.jpg">
+            </div>
+            <div class="showcase-caption">
+                <img align="right" src="images/namib.jpg"><p>The Namib is coastal biome desert, and other coastal area is almost totally rainless, yet its air is almost always at or near the saturation point. Soils that do occur are often highly saline, impregnated with gypsum, or cemented firmly by calcium carbonate, the latter forming a calcrete layer just below the surface.  </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="showcase-slide">
+        <div class="showcase-content">
+            <div class="showcase-content-wrapper">
+                <img src="images/kalahari_.jpg">
+            </div>
+        </div>
+        <div class="showcase-caption">
+            <p>The Kalahari desert is not classifed as an official desert biome. This desert's sand dunes, some of which stretch west to the Namib Desert, compose the largest continuous expanse of sand on earth.It receives too much rainfall - between 5 and 10 inches annually.</p>
+        </div>
+    </div>
+    
+    <div class="showcase-slide">
+        <div class="showcase-content">
+            <div class="showcase-content-wrapper">
+                <img src="images/gobi.jpg"/>
+            </div>
+        </div>
+        <div class="showcase-caption">
+            <p>Polar winter biome deserts, like the Gobi Desert in China and Mongolia, are often created by the rain shadow effect in which a tall mountain range causes warm moist air to rise and cool. </p>
+            
+        </div>
+    </div>
+   
+    <div class="showcase-slide">
+        <div class="showcase-content-wrapper">
+            <img src="images/sahara.jpg">
+        </div>
+        <div class="showcase-caption">
+            <p>The most recognisable type of desert is the subtropical biome desert, typified by the Saharan deserts. They are the hottest deserts and any rain that does fall often evaporates before it hits the ground.</p>
+        </div>
+    </div>
+
+    <div class="showcase-slide">
+        <div class="showcase-content">
+            <div class="showcase-content-wrapper">
+                <img id="img" src="images/sagebrush.jpg">
+            </div>
+           
+           
+        </div>
+        <div class="showcase-caption">
+            <p>The semiarid desert biome, example pictured Utah Sagebrush, receives little rainfall but experiences rather average temperatures. While the temperature can stoop as low as 50 degrees Fahrenheit during the night, the average temperatures in semiarid deserts ranges from 75-85 degrees Fahrenheit.</p>
+        </div>
+    </div>
+    <div class="showcase-slide">
+        <div class="showcase-content">
+	<iframe src="plugins/plugins/slickquiz/index.html" width="100%" height="400px" frameborder="0" scrolling="yes"></iframe>
+	</div>
+    </div>
+</div>
+ <div class="col-md-1"></div>
+    <div class="col-md-12">
+      <div class="row">
+ <h5>Sources: wordpress.mrreid.org/2011/11/24/types-of-desert,brittanica.com,kalaharidesert.net/,eoearth.org,beautifulplacestovisit.com</h5>
+
+</body>
+</html>
